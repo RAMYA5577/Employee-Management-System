@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+</head>
+<body>
+    <div id="container">
+    <div id="left">
+        <form id="form">
+            <label>Name: <input type="text" placeholder="Enter Your Name"  name="name"></label>
+            <label>mobile Number: <input type="number" placeholder="Mobile Number"  name="mobileNumber"></label>
+            <label>Salary: <input type="number" placeholder="Salary"  name="salary"></label>
+            <label>Team: <input type="text" placeholder="Team"  name="team"></label>
+             <label>Role: <select type="text" placeholder="Select Role" name="role">
+                <option>SDE</option>
+                <option>QA</option>
+                <option>HR</option>
+                <option>TESTER</option>
+            </select></label>
+            
+            <label>Company: <input type="text" placeholder="Company"  name="company"></label>
+            <button id="login">Create Employee</button>
+        </form>
+    </div>
+    <div id="right">
+        <table id="table">
+            <thead id="thead">
+                <tr> 
+                   <td>Name</td> 
+                   <td>Employee Id</td> 
+                   <td>Mobile Number</td> 
+                   <td>Salary</td> 
+                   <td>Team</td> 
+                   <td>Role</td>
+                   <td>company</td> 
+                   <td>Edit</td>
+                   <td>Delete</td>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <!-- <tr>
+                    <td>Ramya</td>
+                    <td>1001</td>
+                    <td>9885576031</td>
+                    <td>100000</td>
+                    <td>frontend</td>
+                    <td>SDE</td>
+                    <td>google</td>
+                    <td> <span class="material-symbols-outlined" id="edit">edit</span></td>
+                    <td><span class="material-symbols-outlined" id="delete" >delete</span></td>
+                    
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
